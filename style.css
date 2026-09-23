@@ -1,0 +1,46 @@
+/* 1. Global & Background Settings (Comfortable spacing, light background, dark text) */
+body {
+  background-color: #f8f9fa; /* Soft light gray background */
+  color: #212529; /* Dark gray text for high contrast without harshness */
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, sans-serif;
+  line-height: 1.6;
+
+  /* Set max page width and center it to prevent content from touching screen edges */
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* 2. Main Heading h1 (Clear hierarchy, significantly larger than section titles) */
+h1 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-bottom: 32px;
+  color: #111827;
+  text-align: center; /* Center main heading for better structure */
+}
+
+/* 3. Section Heading h2 */
+h2 {
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 12px;
+  color: #1f2937;
+}
+
+/* 4. Four Sections (Four distinct cards) */
+section {
+  background-color: #ffffff; /* Pure white background to contrast with light gray page */
+  border: 1px solid #e5e7eb; /* Subtle light gray border */
+  border-radius: 8px; /* Slightly rounded corners */
+  padding: 24px; /* Inner padding for cards */
+  margin-bottom: 24px; /* Spacing between cards */
+}
+
+/* Clear bottom margin for the last section */
+section:last-of-type {
+  margin-bottom: 0;
+}
