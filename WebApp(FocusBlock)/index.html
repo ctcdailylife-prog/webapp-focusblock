@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FocusBlock</title>
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>FocusBlock</h1>
+    <!-- Tools needed for work / study -->
+    <section>
+      <h2>工作／溫習要用嘅工具</h2>
+
+      <input
+        type="text"
+        id="tool-input"
+        placeholder="Add a tool for this session..."
+      />
+
+      <!-- Button to add a tool -->
+      <button id="save-tool-btn">Add</button>
+
+      <!-- List of tools -->
+      <ul id="tool-list"></ul>
+    </section>
+
+    <!-- Instant ideas (park first, process later) -->
+    <section>
+      <h2>即時想法（完成工作先處理）</h2>
+
+      <input type="text" id="idea-input" placeholder="Park a sudden idea..." />
+
+      <!-- Button to park an idea -->
+      <button id="save-idea-btn">Park</button>
+
+      <!-- List of parked ideas -->
+      <ul id="idea-list"></ul>
+    </section>
+    <section>
+      <h2>時間塊時間表</h2>
+      <!-- Time blocks (each block = 20 minutes) -->
+      <section>
+        <h2>今日時間塊 (每塊20分鐘)</h2>
+
+        <!-- Time blocks will be added dynamically with JS later. For now, just prepare an empty list. -->
+        <ul id="time-block-list"></ul>
+      </section>
+    </section>
+    <section>
+      <h2>完成工作時間紀錄</h2>
+      <ul id="completed-work-list"></ul>
+    </section>
+    <!-- JavaScript stylesheet -->
+    <script src="script.js"></script>
+  </body>
+</html>
